@@ -37,7 +37,7 @@ public class A1Novice {
 		{
 			System.out.println( first [i].charAt(0)+ ". "  + last[i]+" " +  value[i]  );
 		}
-		scan.close();
+		
 	}
 	public static double value (int length)
 	{
