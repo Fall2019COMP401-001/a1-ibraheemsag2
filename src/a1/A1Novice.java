@@ -8,7 +8,7 @@ public class A1Novice {
 		
 		Scanner scan = new Scanner(System.in);
 
-		// Your code follows here.
+		// Your code follows here
 		
 		// Finds the number of customers
 		int cust = scan.nextInt();
