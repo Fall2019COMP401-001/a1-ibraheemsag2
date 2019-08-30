@@ -13,7 +13,6 @@ public class A1Novice {
 		// Finds the number of customers
 		int cust = scan.nextInt();
 		
-		System.out.println(cust);
 		// create an array of customer first names and last names.
 		
 		String [] first = new String [cust];
@@ -56,7 +55,7 @@ public class A1Novice {
 			value += quantity * price;
 			
 		}
-		scan2.close();
+		
 		return value;
 	}
 }
