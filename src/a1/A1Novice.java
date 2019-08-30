@@ -40,7 +40,7 @@ public class A1Novice {
 		// Works
 		for (int i = 0; i < cust; i++)
 		{
-			System.out.println( first [i].charAt(0)+ ". "  + last[i]+": " +  value[i]  );
+			System.out.println( first [i].charAt(0)+ ". "  + last[i]+": " +  String.format("%.2f", value[i]));
 		}
 		
 	}
