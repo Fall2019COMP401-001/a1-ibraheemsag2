@@ -1,9 +1,13 @@
 package a1;
 
 import java.util.Scanner;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+
+// Got decimal place rounding from here https://www.mkyong.com/java/java-display-double-in-2-decimal-points/
 
 public class A1Adept {
-
+	private static DecimalFormat df2 = new DecimalFormat("#.##");
 	public static void main(String[] args) {
 		
 		Scanner scan = new Scanner(System.in);
@@ -78,7 +82,7 @@ public class A1Adept {
 		average = average/num2;
 		System.out.println("Biggest: " + first [largest] +" " + last[largest] + " (" + total [largest] + ")" );
 		System.out.println("Smallest: " + first [smallest] + " " + last[smallest] + " (" + total [smallest] +")");
-		System.out.println("Average: (" + average + ")");
+		System.out.println("Average: (" + df2.format(average) + ")");
 	}
 	
 }
