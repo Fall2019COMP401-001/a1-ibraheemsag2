@@ -79,8 +79,8 @@ public class A1Adept {
 		average += total [a];
 	}
 		average = average/num2;
-		System.out.println("Biggest: " + first [largest] +" " + last[largest] + " (" + total [largest] + ")" );
-		System.out.println("Smallest: " + first [smallest] + " " + last[smallest] + " (" + total [smallest] +")");
+		System.out.println("Biggest: " + first [largest] +" " + last[largest] + " (" + String.format("%.2f", total [largest]) + ")" );
+		System.out.println("Smallest: " + first [smallest] + " " + last[smallest] + " (" + String.format("%.2f", total [smallest]) +")");
 		System.out.println("Average: " + String.format("%.2f", average) );
 	}
 	
