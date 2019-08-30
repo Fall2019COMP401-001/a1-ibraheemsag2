@@ -45,19 +45,18 @@ public class A1Novice {
 		//comment
 		double value = 0;
 		int quantity = 0;
-		String product = " ";
 		double price = 0;
 		Scanner scan2 = new Scanner(System.in);
 		for(int i = 0; i < length; i++)
 		{
 			//finds value of all items
 			quantity = scan2.nextInt();
-			product = scan2.next();
+			scan2.next();
 			price = scan2.nextDouble();
 			value += quantity * price;
 			
 		}
-		
+		scan2.close();
 		return value;
 	}
 }
