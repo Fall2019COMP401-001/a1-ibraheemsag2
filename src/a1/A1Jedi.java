@@ -21,6 +21,7 @@ public class A1Jedi {
 		// Stores whether person bought it or not.
 		boolean [] bought = new boolean [num];
 		// loop that stores input price and name of items
+		
 		for (int i = 0; i < num; i++)
 		{
 			food[i] = scan.next();
@@ -33,6 +34,7 @@ public class A1Jedi {
 		// stores value to put in quantity
 		int storage = 0;
 		String product = " ";
+		
 		// runs a loop for every customer
 		for(int n = 0; n < numcust; n++)
 		{
@@ -42,6 +44,7 @@ public class A1Jedi {
 				
 				bought [a] = true;
 			}
+			
 			//scans over names of customers
 			scan.next();
 			scan.next();
