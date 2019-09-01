@@ -50,10 +50,12 @@ public class A1Jedi {
 			scan.next();
 			cart = scan.nextInt();
 			
+			//for all items in cart
 			for(int b = 0; b < cart; b++)
 			{
 				storage = scan.nextInt();
 				product = scan.next();
+				
 				for (int c = 0; c < num; c++)
 				{
 					if(product.equals(food[c]))
@@ -62,6 +64,7 @@ public class A1Jedi {
 						if(bought [c])
 						{
 							times[c] += 1;
+							bought [c] = false;
 						}
 					}
 				}
