@@ -73,7 +73,7 @@ public class A1Jedi {
 			}
 			else
 			{
-				System.out.println(times[d]+" customers bought" + quant[d] + " " + food[d]);
+				System.out.println(times[d]+" customers bought " + quant[d] + " " + food[d]);
 			}
 		}
 		
